@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+:root{
+    --primary-text-color:#ff6551;
+    --secondary-text-color:#252b42;
+    --light-dark-color:#7373737;
+    --light-gray-color:#ECECEC;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/* utility Class */
+a{
+    text-decoration: none;
+}
+li{
+    list-style:none;
+}
+h1{
+    font-size:58px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    
+}
+h2{
+    font-size:40px;
+    font-weight: 700;
+}
+h3{
+    font-size:24px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+}
+h4{
+    font-size:20px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+}
+h5{
+    font-size:16px;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+}
+h6{
+    font-size:14px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+}
+p{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+}
+small{
+    font-size: 12px;
+    font-weight: 400;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.container{
+    padding:20px 136px;
+}
+.primary-btn{
+    background-color: #FF6551;
+    padding:15px 35px;
+    border-radius: 5px;
+    color:#fff;
+}
+.secondary-btn{
+    padding:15px 35px;
+    border-radius: 5px;
+    color:white;
+    border:1px solid #ff6551;
+}
+/* navbar class */
+nav{
+    justify-content: space-between;
+    background-color: #e74040;
+    color:white;
+}
+.nav-left{
+    gap:30px;
+}
+.nav-left h2{
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+}
+.nav-links{
+    gap:20px;
+}
+.nav-link{
+    color:white;
+    font-size:14px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+}
+.hero{
+    background-image: url("images/hero-background-image.png");
+    background-size: cover;
+    color:blue;
+    padding-right:0;
+}
+.hero-left{
+    gap:20px;
+    color:white;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.hero img{
+    width:720px;
+}
+.hero-buttons{
+    margin-top:20px;
+}
+.advise1-header h6{
+    color:var(--primary-text-color);
+}
+.advise1section{
+    margin:40px 0;
+}
+.advise1section img{
+    width:510px;
+}
+.advice-content{
+    gap:40px;
+}
+.advice-content .number{
+    background-color: var(--light-gray-color);
+    padding:13px 16px 13px 16px;
+    border-radius: 50%;
+    margin-right:20px;
+    color:var(--primary-text-color);
+    font-size:16px;
+    letter-spacing: 0.1px;
+    font-weight: 700;
+}
+.advice-content .list{
+    margin:40px;
+}
+.list-item-text h6{
+    font-size:14px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+}
+.list-item{
+    margin-bottom:30px;
+}
+.advise1-header h3{
+    color:#252B42;
+    padding: 10px 0;
+}
+.advise1-header p{
+    font-size:14px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    color: var(--light-dark-color);
+}
+.advice-content-right-header h3{
+    font-size:24px;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+    color:var(--secondary-text-color);
+    padding-bottom:5px;
+}
+.advice-content-right-header p{
+    font-size:14px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    color:var(--light-dark-color);
+}
+.list-item-text h6{
+    font-size: 14px;
+    font-weight: 400;
+    color:var(--secondary-text-color);
+}
+.advice-content{
+    justify-content: space-between;
+}
+.advise2section{
+    margin-top:6rem;
+}
+.advise2-cart{
+    margin-top:2rem;
+    justify-content: space-between;
+}
+.cart{
+    width:15%;
+    border:1px solid red;
+    border:none;
+    background-color: #FFFFFF;
+    box-shadow: 0px 13px 19px 0px #00000021 ;
+    padding:35px 40px 35px 40px;
+}
+.cart1-border{
+    background-color: var(--primary-text-color);
+    width:50px;
+    height:50px;
+    justify-content: center;
+    border-radius: 5px;
+}
+.cart1-text h5{
+    color:var(--secondary-text-color);
+}
+.line{
+    width:40%;
+    border:1.5px solid var(--primary-text-color);
+}
+.cart1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap:20px;
+}
+.cart1-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap:10px;
+}
+.cart2{
+    margin-top:4rem;
+}
+.cart4{
+    margin-top:4rem;
+}
+
